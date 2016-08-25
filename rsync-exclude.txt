@@ -1,0 +1,4 @@
+Applications/
+Applications (Parallels)/
+Library/
+Pictures/*.photoslibrary/

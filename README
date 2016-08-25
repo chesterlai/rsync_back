@@ -1,0 +1,8 @@
+back up the data
+push below in cronjob
+--
+05 12 * * 2,4 /Volumes/backup/rsync_backup/b_rsync.sh
+--
+It will back up data to 
+first_half_week on Tue
+second_half_week on Thu
