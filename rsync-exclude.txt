@@ -2,3 +2,4 @@ Applications/
 Applications (Parallels)/
 Library/
 Pictures/*.photoslibrary/
+.nx/
