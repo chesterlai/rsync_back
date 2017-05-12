@@ -2,7 +2,7 @@ back up the data
 push below in cronjob
 --
 05 12 * * 1-5 /Volumes/backup/rsync_backup/b_rsync.sh > /dev/null 2>&1
-10 12 * * 1-5 /usr/bin/find /Volumes/backup/rsync_backup/log -mtime +30 ! -name "rsync_air.*" -delete
+10 12 * * 1-5 /usr/bin/find /Volumes/backup/rsync_backup/log -mindepth 1 -mtime +30 ! -name "rsync_air.*" -delete
 --
 It will back up data to 
 1_3     on Mon, Wed
